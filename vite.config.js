@@ -5,17 +5,21 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-    esbuild: {
-    supported: {
-      'top-level-await': true
-    },
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      target: 'esnext'
+  build: {
+    // Ensure proper MIME types
+    assetsInlineLimit: 4096, // 4kb
+    rollupOptions: {
+      output: {
+        // Proper chunk naming
+        chunkFileNames: 'assets/js/[name]-[hash].js',
+        entryFileNames: 'assets/js/[name]-[hash].js',
+        assetFileNames: 'assets/[ext]/[name]-[hash].[ext]'
+      }
     }
   },
-  build: {
-    target: 'esnext'
+  server: {
+    headers: {
+      'Content-Type': 'application/javascript'
+    }
   }
 })
