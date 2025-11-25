@@ -7,5 +7,9 @@ import Weoffers from "./home/Weoffers";
 import GetinTouch from "./home/GetinTouch";
 import FeaturedProducts from "./home/FeaturedProducts";
 import Ourportfolio from "./home/Ourportfolio";
+import Cards from './home/Cards'
+import FAQ from './home/Faq'
+import Testimonial from './home/Testimonial'
+import Contact from './home/Contact'
 
-export { Navbar, Footer, LoaderPage,Banner,About,Weoffers,GetinTouch,FeaturedProducts,Ourportfolio};
+export { Navbar, Footer, LoaderPage,Banner,About,Weoffers,GetinTouch,FeaturedProducts,Ourportfolio,Cards,FAQ,Testimonial,Contact};

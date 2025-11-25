@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner,About,Weoffers, GetinTouch,FeaturedProducts, Ourportfolio } from "../components";
+import { Banner,About,Weoffers, GetinTouch,FeaturedProducts, Ourportfolio, FAQ, Testimonial, Contact } from "../components";
 import { Link } from "react-router-dom";
 
 const homePage = () => {
@@ -11,6 +11,9 @@ const homePage = () => {
       <GetinTouch/>
       <FeaturedProducts/>
       <Ourportfolio/>
+      <FAQ/>
+      <Testimonial/>
+     <Contact/>
     </>
   );
 };

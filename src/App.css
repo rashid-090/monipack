@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -16,12 +16,12 @@ html {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
+ font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-style: normal;
   overflow-x: hidden;
-  color: #000;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 button:focus {
@@ -52,4 +52,6 @@ select::placeholder {
   }
 }
 
-
+.slick-arrow{
+  display: none !important;
+}
