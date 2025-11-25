@@ -113,7 +113,7 @@ const Contact = () => {
             {/* Submit Button */}
             <button
               type='submit'
-              className='w-full bg-gradient-to-r from-main-bg to-main-bg-hove text-white py-4 px-6 rounded-xl font-semibold hover:from-main-bg-hove hover:to-main-bg transform hover:scale-[1.01] transition-all duration-200 shadow-lg hover:shadow-xl'
+              className='w-full bg-gradient-to-r from-main-bg to-main-bg-hove text-white py-4 px-6 rounded-xl hover:from-main-bg-hove hover:to-main-bg transform hover:scale-[1.01] transition-all duration-200 shadow-lg hover:shadow-xl'
             >
               Send Message
             </button>
